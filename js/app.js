@@ -1,26 +1,16 @@
 /*-------------------------------- Constants --------------------------------*/
 const squareEls = document.querySelectorAll(".sqr");
 const messageEL = document.querySelector("h2");
-let xArr = [];
-let oArr = [];
+
 /*---------------------------- Variables (state) ----------------------------*/
-let board;
 let turn = false;
 let winner = 0;
 let tie = 0;
-
+let xArr = [];
+let oArr = [];
 /*------------------------ Cached Element References ------------------------*/
 
 /*-------------------------------- Functions --------------------------------*/
-// const render =()=>{
-
-// }
-// const updateBoard =()=>{
-// for (let index = 0; index < board.length; index++) {
-
-// }
-
-// }
 
 squareEls.forEach((element) => {
   element.addEventListener("click", () => {
